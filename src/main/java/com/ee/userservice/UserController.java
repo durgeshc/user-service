@@ -15,13 +15,13 @@ public class UserController {
     public static class User {
 
         private String name;
-        private String email;
+//        private String email;
         private String contact;
         private String address;
 
         public User(String name, String email, String contact, String address) {
             this.name = name;
-            this.email = email;
+//            this.email = email;
             this.contact = contact;
             this.address = address;
         }
@@ -30,9 +30,9 @@ public class UserController {
             return name;
         }
 
-        public String getEmail() {
-            return email;
-        }
+//        public String getEmail() {
+//            return email;
+//        }
 
         public String getContact() {
             return contact;
